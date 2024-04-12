@@ -2,3 +2,18 @@
 
 Contient toutes les routes, composants et logiques de votre application.
 C'est là que vous passerez la plupart de votre temps de travail.
+
+/page.tsx
+
+Ficheiro especial que é usado para gerar as rotas da aplicação.
+Só a page.tsx é publicamente acessível. É a estrutura das pastas que determina
+as rotas. Cada pasta precisa da page.tsx para gerar uma rota, mas pode ter outros
+ficheiros que não serão públicos.
+
+/layout.tsx
+
+Usado para gerar o layout da aplicação, não é rerenderizado ao navegar entre
+páginas (partil rendering).
+
+ Só o layout.tsx na pasta app é obrigatório e aplica-se a todas as páginas,
+ e portanto é onde são modificadas as tags <html> e <body> e os metadados.
