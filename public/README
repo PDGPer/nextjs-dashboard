@@ -1,0 +1,22 @@
+/public 
+
+Contient tous les éléments statiques de votre application, tels que les images.
+
+/images
+
+Le composant <Image> étend la balise HTML <img> pour éviter les décalages de mise en page,
+redimensionne les images pour les petitis appareils, charge de manière retardée et sert
+les images dans des formats tels que WebP et AVIF, si le navigateur les prend en charge.
+
+Exemple:
+
+    <Image
+        src="/hero-desktop.png"
+        width={1000}
+        height={760}
+        className="hidden md:block"
+        alt="Screenshots of the dashboard project showing desktop version"
+    />
+
+Pour éviter le décalage de mise en page, la largeur et la hauteur sont requises
+et doivent également respecter le rapport hauter/largeur de l'image d'origine.

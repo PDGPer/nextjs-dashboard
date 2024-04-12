@@ -1,5 +1,8 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
+/* Il peut y avoir des cas où vous devrez peut-être appliquer des styles de manière conditionnelle à un élément en fonction de l'état ou d'une autre condition.
+
+clsx est une bibliothèque qui vous permet de basculer facilement entre les noms de classe.*/
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (

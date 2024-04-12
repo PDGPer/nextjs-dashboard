@@ -1,0 +1,11 @@
+/lib
+
+Contient des fonctions utilisées dans votre application, telles que des fonctions utilitaires réutilisables et des fonctions de récupération de données.
+
+data.ts 
+
+Chaque objet JavaScript du fichier représente une table de votre base de données.
+
+definitions.ts 
+
+Ici, nous définissons manuellement les types qui seront renvoyés par la base de données.

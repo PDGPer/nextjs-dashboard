@@ -1,3 +1,7 @@
+/* Ce fichier est utilisé pour ajouter des règles CSS à toutes les routes de votre application.
+C'est une bonne pratique de l'ajouter au composant de niveau supérieur dans Next.j,
+il s'agit de la disposition racine. */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

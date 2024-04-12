@@ -1,0 +1,9 @@
+/* Les modules CSS vous permettent de délimiter le CSS à un composant en créant automatiquement des nomes de classe uniques, de sorte que vous n'ayez pas à vous soucier des collisions de styles. */
+
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
