@@ -1,0 +1,5 @@
+/ Link component
+
+No Next.js, o código está divido por segmentos correspondentes a cada rota, ao invés de carregar todo o código ao início como uma app React tradicional. Se parte da página crashar, o resto continua a funcionar.
+
+Cada Link detectado numa página também faz o Next fazer prefetch dos conteúdos da página linkada, tornando o acesso aparentemente instantâneo.
